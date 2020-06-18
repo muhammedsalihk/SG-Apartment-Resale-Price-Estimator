@@ -14,7 +14,7 @@ Here, we are building an accurate predictor for the resale price based on the da
 
 The predictor is built on the data provided on the HDB webiste for sales made between Q1 2017 – Q1 2020. A basic overview of the original data is given in the picture below.
 
-**image 1**
+![Initial Dataframe](https://github.com/muhammedsalihk/SG-Apartment-Resale-Price-Estimator/blob/master/Images/Initial%20DF.png)
 
 The dataset contained records on 70104 resale transactions that happened during this period.
 
@@ -43,6 +43,6 @@ The following models were evaluated for performance.
 
 The performance of the different models are summarised below.
 
-**image 3**
+![R2 Scores](https://github.com/muhammedsalihk/SG-Apartment-Resale-Price-Estimator/blob/master/Images/R2.png)
 
 The **XGBoost Regressor** performed the best and gave an **R2 score of nearly 0.95** on the test set. And hence we can go ahead and use the model built using XG boost for our HDB resale price predictor.
