@@ -24,7 +24,7 @@ The dataset was analysed using different visualisations and by using various sta
 
 The selected set of features can be see in the picture appended below.
 
-**image 2**
+![Final Dataframe](https://github.com/muhammedsalihk/SG-Apartment-Resale-Price-Estimator/blob/master/Images/Final%20DF.png)
 
 The data was divided into two sets (train and test) in an 80-20 ratio. Multiple regressors were tried and for each regressor, the hyperparameters were tuned based on a 4 fold cross validation approach using sklearn’s GridSearchCV. Finally, the performance of the different models with the tuned set of hyperparameters were evaluated on the test set.
 
